@@ -48,12 +48,28 @@ body {
 
 .features-container {}
 
+
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+
+
 /* Block dividers */
 
 .block-divider {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .block-divider--orange {
@@ -62,6 +78,13 @@ body {
 
 .block-divider--short {
     width: 35px;
+}
+
+/* content-containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
